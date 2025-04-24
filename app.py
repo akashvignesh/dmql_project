@@ -1,4 +1,4 @@
-import app as st
+import streamlit as st
 import psycopg2
 from psycopg2 import Error
 import pandas as pd
