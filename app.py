@@ -54,7 +54,7 @@ def to_excel(df):
 
 # Streamlit app
 def main():
-    st.title("ESDS- 560 - DMQL Final Project")
+    st.title("ESDS- 560 - CRIME INCIDENT DATABASE")
     st.write("Enter a  CRUD SQL query to run on the DMQL_Project database.")
     st.write("There are Five Tables and their names are Arrests, Offense_Types, Arrest_Offenses, Perpetrators, Arrest_Details.")
 
