@@ -54,8 +54,9 @@ def to_excel(df):
 
 # Streamlit app
 def main():
-    st.title("PostgreSQL Query Runner")
-    st.write("Enter a SQL query to run against the DMQL_Project database.")
+    st.title("ESDS- 560 - DMQL Final Project")
+    st.write("Enter a  CRUD SQL query to run on the DMQL_Project database.")
+    st.write("There are Five Tables and their names are Arrests, Offense_Types, Arrest_Offenses, Perpetrators, Arrest_Details.")
 
     # Initialize session state for query
     if "query" not in st.session_state:
